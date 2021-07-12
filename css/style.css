@@ -3,7 +3,7 @@
 }
 :root {
   --primary-text-color: #636b76;
-  --title-text-color: #64ebac;
+  --title-text-color: #42c186;
   --hover-text-color: #b1b5ba;
   --accent-text-color: #ffffff;
   --date-text: #616969;
@@ -13,6 +13,15 @@ h2,
 h3,
 h4 {
   margin: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  /* text-decoration: none; */
+  font-style: normal;
 }
 
 body {
@@ -59,6 +68,27 @@ body {
   font-weight: 700;
   line-height: 1.97;
   margin-bottom: 20px;
+}
+
+.site {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+.site li {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-bottom: 20px;
+}
+.site-text {
+  color: var(--title-text-color);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.site-text:visited {
+  color: #42c186;
 }
 .profession {
   font-size: 16px;
