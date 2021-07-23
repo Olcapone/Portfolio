@@ -77,13 +77,14 @@ body {
   flex-wrap: wrap;
 }
 .site li {
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc(100% / 3 - 20px);
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 .site-text {
   color: var(--title-text-color);
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
 }
 
@@ -110,6 +111,10 @@ body {
   font-weight: 400;
   line-height: 2;
 }
+.projects {
+  margin-bottom: 20px;
+}
+
 .work-story {
   font-size: 14px;
   font-weight: 400;
@@ -124,9 +129,11 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
+  text-indent: 20px;
+  margin-bottom: 40px;
 }
 .contact-container {
-  margin: 60px 40px 40px 45px;
+  margin: 60px 40px 40px 40px;
 }
 .contact-title {
   color: var(--accent-text-color);
