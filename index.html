@@ -9,6 +9,7 @@
         crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+   
 </head>
 <body>
 
@@ -22,50 +23,66 @@
        <img class="my-photo" src="./image/onlycat.jpg" alt="My Photo">
     <!--Contacts container-->
        <div class="contact-container">
-           <h3 class="contact-title">Contacts</h3>
+           <!--<h3 class="contact-title">Contacts</h3>-->
            <ul class="all-cont">
-               <li>
+               <li class="cont-item">
+                <svg class="cont__icon">
+                    <use href="./image/symbol-defs.svg#icon-contacts-line"></use>
+                </svg>
                 <a class="contact-link" href="tel:+380632904707">+380632904707</a> 
                </li>
-               <li>
-                <a class="contact-link" href="mailto:fblackberries@gmail.com">fblackberries@gmail.com</a>   
+               <li class="cont-item">
+                <svg class="cont__icon">
+                    <use href="./image/symbol-defs.svg#icon-mail-send-line"></use>
+                </svg>
+                <a class="contact-link" href="mailto:fblackberries@gmail.com">ponomarenkooli@gmail.com</a>   
                </li>
-               
+               <li class="cont-item">
+                <svg class="cont__icon">
+                    <use href="./image/symbol-defs.svg#icon-github-fill"></use>
+                </svg>
+                <a class="contact-link" href="https://github.com/Olcapone">https://github.com/Olcapone</a>  
+               </li>
+               <li class="cont-item">
+                <svg class="cont__icon">
+                    <use href="./image/symbol-defs.svg#icon-linkedin-box-fill"></use>
+                </svg>
+                <a class="contact-link" href="https://www.linkedin.com/in/olga-ponomarenko-609284218/">https://www.linkedin.com/in/ </br>  olga-ponomarenko-609284218/</a> 
+               </li>
+               <li class="cont-item">
+                   <svg class="cont__icon">
+                <use href="./image/symbol-defs.svg#icon-home"></use>
+            </svg>
+                    <a class="contact-link" href="https://goo.gl/maps/j6iR2pxHiAaEzDGr7" target="_blank">Dnepr, Ukraine</a>    
+                </li>
             </ul>
        </div>
-<!--Education container-->
-<div class="education-block">
-    <h3 class="tech-skill ">Education</h3>
-    <div class="education ">
-        <span class="company">Dniprodzerzhinsky State Technical University (Kam'yanske)
-        </span>
 
-        <p class="skill-text">Applied Mathematics, Electronics and Computer Technologies</p>
-        <sub class="date">2010 <span>|</span> Ukraine</sub>
-    </div>
-</div>
-
+<section>
     <!--Tech skills container-->
     <div >
         <h3 class="tech-skill">Skills</h3>
+    <hr class="hr_line">
         <ul class="tech-skills">
-            <div>
-                <li> <span class="skill-text">HTML5</span></li>
-                <li><span class="skill-text"> CSS3</span></li>
-                <li><span class="skill-text"> SASS</span></li>
+             <li> <span class="skill-text">Responsive / Adaptive design</span></li>
+                <li> <span class="skill-text">HTML5 / CSS3 / SASS</span></li>
+                <li><span class="skill-text"></span></li>
+                <li><span class="skill-text"> </span></li>
                 <li><span class="skill-text"> GIT</span></li>
-                <li><span class="skill-text"> NPM / Parcel</span></li>
+                <li><span class="skill-text"> Node.js</span></li>
+                <li><span class="skill-text"> Parcel / Webpack</span></li>
+                <li><span class="skill-text"> Handlebars</span></li>
                 <li><span class="skill-text"> JavaScript </span></li>
-
-
-
-            </div>
+                <li><span class="skill-text"> AJAX </span></li>
+                <li><span class="skill-text"> REST API </span></li>
+                <li><span class="skill-text"> React </span></li>
     </ul>
     </div>
 
     <!--Soft Skills container-->
     <div>
         <h3 class="soft-skill">Personal Qualities</h3>
+        <hr class="hr_line">
         <ul class="soft-skills">
             <li><span class="skill-text">Cheerful And Energetic</span></li>
             <li><span class="skill-text">Dependable</span></li>
@@ -77,6 +94,7 @@
 
     <div class="hoobies-block">
         <h3 class="soft-skill">Language</h3>
+        <hr class="hr_line">
         <ul class="soft-skills">
             <li><span class="skill-text">English Intermediate</span></li>
         
@@ -84,42 +102,63 @@
     
     </div>
 
+    </section>
+
 </aside>
 
 
 
     <!--about me container-->
     <section class="about-me">
-        <h3 class="projects">FRONT END DEVELOPER</h3>
-        <hr />
-        <p class="description">     I am a customer service representative with experience in handling complex issues and resolving customer loyalty. I love difficult tasks and I am ready to solve them. I live in Dnipro, but would like to work remotely. I like building responsive websites, working with animation</p>
-        
+        <h3 class="position">FRONT END DEVELOPER</h3>
+        <hr class="hr_line" />
+        <span class="description"> <p>I'm interested in the position of the Front End developer, or Junior developer in product or outsourcing company. 
+            I live in Dnipro, but would like to work remotely. </p>
+            <p>I like building responsive websites, and I have a little experience in commercial development and teamwork (3 months).
+            </p>
+            <p>Also I have hands-on experience in following Agile/Scrum methodology, when working in a team. </p>
+            
+        </span>
 
         <!--work experience-->
         <div>
+
+            <h3 class="projects">My Works</h3>
+            <ul class="site">
+                <li class="site-item">
+                    <a class="site-text" href="https://doroshyk.github.io/team-project-02-group-11/"> Filmoteka</a>
+                    <p class="date">( HTML, SASS, JS, Parsel, RestAPI )</p>
+                    <p class="site-item-text">Site for search film, adaptive application with saving in local storage, Team project </p>
+                </li>
+             <li class="site-item">
+                    <a class="site-text" href="https://icecream-group-15.github.io/parcel-project-template/"> IceCream</a>
+                    <p class="date">( HTML, SASS, JS, Parsel )</p>
+                    <p class="site-item-text">Site for product, adaptive application. Team project</p>
+                </li>
+
+                <li class="site-item">
+                    <a class="site-text" href="https://olcapone.github.io/goit-markup-hw-08/"> Web Studio </a> 
+                    <p class="date">( HTML, SASS )</p>
+                   <p class="site-item-text">Site with portfolio and product cards. Adaptive application <br> Individual work  </p>
+                </li>
+
+                    <li class="site-item">
+                        <a class="site-text" href="https://olcapone.github.io/goit-js-hw-13-images-finder/"> Image finder </a>
+                        <p class="date">( HTML, CSS, JS, RestAPI )</p>
+                        <p class="site-item-text">Site with product cards and portfolio</p>
+                    </li>
+            </ul>
                   
             
             <h3 class="projects">Work Experience</h3>
 
             <!--1 company-->
             <div>
-                <h4 class="profession">Student at Full Stack Developer course <span class="company">GoIt</span>
-                </h4>
-                <sub class="date">December 2020 - up to now <span class="simbol">|</span> online </sub>
-            
-                <ul class="work-story">
-            
-                    <li>Team project in HTML, CSS -
-                    IceCream  </li>
-                    <li>Completed the JS course, a couple of homework: Image finder,
-                    Country finder</li>
-                    <li>Studying REACT</li>
-                </ul>
-            </div>
-
-            <!--1 company-->
-            <div>
-                <h4 class="profession">Specialist of reception of individual VIP-clients <span class="company">Privatbank</span></h4>
+                <div class="work-container">
+                    <h4 class="profession">Specialist of reception of individual VIP-clients</h4> 
+                    <span class="company">Privatbank</span>
+                </div>
+                
                 <sub class="date">November 2016 - up to now <span class="simbol">|</span> Dnepr </sub>
 
                 <ul class="work-story">
@@ -132,8 +171,11 @@
             </div>
 
             <!--2 company-->
-            <div>
-                <h4 class="profession">Economist of the service of foreign exchange operations, <br> operations with bank metals and payment cards <span class="company">Oschadbank</span></h4>
+            <!-- <div>
+                <div class="work-container">
+                <h4 class="profession">Economist of the service of foreign exchange operations, operations <br> with bank metals and payment cards </h4>
+                <span class="company">Oschadbank</span>
+            </div>
                 <sub class="date">April 2015 - October 2015 <span class="simbol">|</span> Kam'yanske </sub>
   </sub>
             
@@ -143,36 +185,30 @@
                     <li>Verification and support of opening card accounts, solving problematic issues</li>
                     <li>Participation in advertising projects</li>
                 </ul>
-            </div>
+            </div> -->
 
-            <h3 class="projects">My Works</h3>
-            <ul class="site">
-            
-                <li>
-                    <a class="site-text" href="https://olcapone.github.io/goit-js-hw-13-images-finder/"> Image finder </a>
-            
-                </li>
-                <li>
-                    <a class="site-text" href="https://olcapone.github.io/goit-js-hw-12-countries/"> Country finder </a>
-            
-                </li>
-                <li>
-                    <a class="site-text" href="https://icecream-group-15.github.io/parcel-project-template/"> IceCream</a>
-            
-                </li>
-            
-            
-                <li>
-                    <a class="site-text" href="https://olcapone.github.io/goit-js-hw-10-food-service/"> FoodService</a>
-            
-                </li>
-            
-            
-                <li>
-                    <a class="site-text" href="https://olcapone.github.io/goit-markup-hw-08/"> Web Studio </a>
-            
-                </li>
-            </ul>
+                <!--Education container-->
+                <div class="education-block">
+                    <h3 class="projects ">Education</h3>
+                    <div class="education ">
+                
+                        <span class="profession">Dniprodzerzhinsky State Technical University (Kam'yanske)
+                        </span>
+                
+                        <p class="skill-text">Applied Mathematics, Electronics and Computer Technologies</p>
+                        <sub class="date">2010 <span>|</span> Ukraine</sub>
+                    </div>
+
+                <div>
+                    
+                   <span class="profession">GoIT Academy</span>  
+                <p class="skill-text">FullStack developer</p>
+                <sub class="date">2020 -2021 <span>|</span> Ukraine</sub>
+                  
+                </div>
+                </div>
+
+         
 
         </div>
       
